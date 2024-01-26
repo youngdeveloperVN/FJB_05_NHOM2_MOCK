@@ -1,7 +1,16 @@
 package com.example.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
+import java.math.BigDecimal;
+
+@Setter
+@Getter
 public class Employee {
 
-    String password;
     String username;
+    String password;
+    BigDecimal salary;
+
 }
