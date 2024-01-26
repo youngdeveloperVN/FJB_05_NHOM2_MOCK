@@ -10,8 +10,7 @@ import java.math.BigDecimal;
 public class Employee {
 
     String username;
-
-    String passsss;
-
+    String password;
     BigDecimal salary;
+
 }
